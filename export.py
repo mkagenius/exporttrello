@@ -22,7 +22,7 @@ exclude_orgs = []
 
 orgid2name = {} # org id to name
 org2boards = {} # org_id -> [] array of board ids
-board2cards = {} # board_id -> [] array of card id, name tuple
+board2cards = {} # board_id -> [] array of card id, name, [comments] tuple
 
 for i in org_json:
 	orgid2name[i["id"]] = i["displayName"]
