@@ -1,5 +1,6 @@
 # exporttrello
 
+`python export.py`
 
 * You can export all the comments in all the boards, across all the org you have access to.
 
